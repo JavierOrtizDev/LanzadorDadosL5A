@@ -11,8 +11,8 @@ num_ring = error_control(mensaje_ring)
 num_skill = error_control(mensaje_skill)
 
 #lanzar dados
-roll_dice(d_ring, num_ring)
-roll_dice(d_skill, num_skill)
+print(roll_dice(d_ring, num_ring))
+print(roll_dice(d_skill, num_skill))
 
 
 print("Cantidad de dados de anillo guardados:", num_ring)

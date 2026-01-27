@@ -9,4 +9,4 @@ def roll_dice(dice, num_dice):
       while "🎯" in face:
         face = random.choice(dice)
         result.append(face)
-    print(result)
+    return result
