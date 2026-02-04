@@ -5,8 +5,8 @@ def roll_dice(dice, num_dice):
     for i in  range(num_dice):
       face = random.choice(dice)
       result.append(face)
-#lanza los dados extras
+    return result
+""" #lanza los dados extras
       while "🎯" in face:
         face = random.choice(dice)
-        result.append(face)
-    return result
+        result.append(face) """
